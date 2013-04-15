@@ -50,49 +50,85 @@ table {
 /*
   Custom Styles
 */
-/*from w3 schools */
-body
-{
-background-color:#D8D8D8;
+body {
+  background-color:#B4CDCD;
 }
-h1
-{
-color:#A43C23;
-text-align:center;
-font-weight:900;
-font-size:35px;
+
+header {
+  background-color: black;
+  color: #D59F0F;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
-h5
-{
+
+h1 {
 color:#A43C23;
-font-family:"Garramond";
+  text-align:center;
+  font-weight:900;
+  font-size:35px;
+}
+
+h2 {
+  color:#A43C23;
+  font-weight: 900;
+  font-family:"Georgia";
+  font-size:25px;}
+
+h3{
+  color:#CC6600;
+  font-family:"Georgia";
+  font-size:20px;
+}
+
+h4
+  {color:#A43C23;
+  font-family:"Georgia";
+  font-size:16px;}
+
+h5 {
+color:#A43C23;
+font-family:"Georgia";
 font-size:16px;
 }
-h2
-{color:#A43C23;
-font-weight: 900;
-font-family:"Garramond";
-font-size:25px;}
-h3
-{color:#CC6600;
-font-family:"Garramond";
-font-size:20px;
+
+p {
+  color:#A43C23;
 }
-h4
-{color:#A43C23;
-font-family:"Garramond";
-font-size:16px;}
 
 .fiftyleftpad {
-padding-left:50px;
-color:#A43C23;
-font-family:"Garramond";
+  padding-left:50px;
+  color:#A43C23;
+  font-family:"Georgia";
+  font-size:16px;
+}
+.boxes {
+  width:250px;
+padding:10px;
+border:0px solid gray;
+margin:10px;
 font-size:16px;
+padding-left:50px;
+font-family:"Georgia";
+color:purple;
 }
 .newtablink {
-text-align:center;
-padding-left:50px;
-color:#A43C23;
-font-family:"Garramond";
-font-size:16px;
+  text-align:center;
+  padding-left:50px;
+  color:#A43C23;
+  font-family:"Georgia";
+  font-size:16px;
 }
+.brown {
+  width:50px;
+  margin:auto;
+  color:red;
+  background-color: brown;
+}
+
+.center {
+  text-align:center;
+}
+
+
