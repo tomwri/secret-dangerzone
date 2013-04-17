@@ -50,8 +50,13 @@ table {
 /*
   Custom Styles
 */
+
+h1, h2, h3, h4, h5, h6, p, a, li , header{ 
+  color: #999999;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
 body {
-  background-color:#B4CDCD;
+  background-color:#f0f0f0;
 }
 
 header {
@@ -73,23 +78,19 @@ color:#A43C23;
 h2 {
   color:#A43C23;
   font-weight: 900;
-  font-family:"Georgia";
   font-size:25px;}
 
 h3{
   color:#CC6600;
-  font-family:"Georgia";
   font-size:20px;
 }
 
 h4
   {color:#A43C23;
-  font-family:"Georgia";
   font-size:16px;}
 
 h5 {
 color:#A43C23;
-font-family:"Georgia";
 font-size:16px;
 }
 
@@ -100,7 +101,6 @@ p {
 .fiftyleftpad {
   padding-left:50px;
   color:#A43C23;
-  font-family:"Georgia";
   font-size:16px;
 }
 .boxes {
@@ -110,14 +110,12 @@ border:0px solid gray;
 margin:10px;
 font-size:16px;
 padding-left:50px;
-font-family:"Georgia";
 color:purple;
 }
 .newtablink {
   text-align:center;
   padding-left:50px;
   color:#A43C23;
-  font-family:"Georgia";
   font-size:16px;
 }
 .brown {
@@ -131,3 +129,13 @@ color:purple;
   text-align:center;
 }
 
+.wrapper {
+  height: 1000px;
+  max-width: 1860px;
+}
+
+.container {
+  margin: 53px 0 0 125px;
+  height: 100%;
+  float: left;
+}
