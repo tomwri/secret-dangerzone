@@ -51,10 +51,11 @@ table {
   Custom Styles
 */
 
-h1, h2, h3, h4, h5, h6, p, a, li , header{ 
+h1, h2, h3, h4, h5, h6, p, a, li { 
   color: #999999;
-  font-style: Garamond
+  font-family: "Georgia", "Arial", Georgia, Arial, sans-serif; 
 }
+
 body {
   background-color:#f0f0f0;
 }
