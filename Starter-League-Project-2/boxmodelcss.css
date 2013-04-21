@@ -88,7 +88,7 @@ table {
   border: 10px solid #ccc;
   height: 100px;
   padding: 40px 0px;
-  width: 600px;
+  width: 260px;
   color: blue;
   float:left;
   margin:auto;
@@ -99,7 +99,7 @@ table {
   border: 10px solid #ccc;
   height: 100px;
   padding: 40px 0px;
-  width: 260px;
+  width: 600px;
   color: blue;
   float:left;
 }
