@@ -76,7 +76,6 @@ table {
   float:left;
 }*/
 
-p
 .col1
 .col3
 .header {
@@ -142,6 +141,7 @@ p
 
 p {
 	color:purple;
+	text-align:center;
 }
 body {
 	background: white;
