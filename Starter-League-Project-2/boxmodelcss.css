@@ -70,27 +70,31 @@ table {
 	width:260px;
 }*/
 
-/*.container {
-  max-width: 960px;
-  margin: 0 auto;
-  float:left;
-}*/
-
 .col1
 .col3
 .header {
 	text-align: center;
 	font-size:12px;
 }
+/*
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  float:left;
+}*/
+
+.section {
+	float:left;
+}
 
 .col1 {
   background: #fff;
   border: 10px solid #ccc;
-  height: 300px;
   padding: 40px 0px;
+  height:700px;
   width: 260px;
   color: blue;
-  float:left;
+  float:right;
   margin:auto;
 }
 
@@ -124,7 +128,7 @@ table {
   Clearfix
 */
 
-/*.group:before,
+.group:before,
 .group:after {
   content: "";
   display: table;
@@ -134,7 +138,7 @@ table {
 }
 .group {
   clear: both;
-}*/
+}
 /*End Clearfix*/
 
 
@@ -153,6 +157,7 @@ body {
 h1 {
 	font-size:20px;
 	font-weight:bold;
+	text-align:center;
 }
 
 img {
