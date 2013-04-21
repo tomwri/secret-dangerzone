@@ -86,7 +86,7 @@ table {
 .col1 {
   background: #fff;
   border: 10px solid #ccc;
-  height: 100px;
+  height: 300px;
   padding: 40px 0px;
   width: 260px;
   color: blue;
@@ -97,7 +97,7 @@ table {
 .col3 {
   background: #fff;
   border: 10px solid #ccc;
-  height: 100px;
+  height: 300px;
   padding: 40px 0px;
   width: 600px;
   color: blue;
