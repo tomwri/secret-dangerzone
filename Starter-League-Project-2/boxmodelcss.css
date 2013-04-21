@@ -161,9 +161,21 @@ img {
 }
 li {
 	display:inline;
+	padding:10px;
 }
 footer {
 	clear:both;
+}
+
+li a {
+	text-decoration:none;
+}
+
+ul a:hover {
+	text-decoration: underline;
+	font-size:80px;
+}
+
 }
 /*span {
   display: inline-block;
