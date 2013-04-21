@@ -91,7 +91,7 @@ table {
   width: 600px;
   color: blue;
   float:left;
-  text-align:center;
+  margin:auto;
 }
 
 .col3 {
