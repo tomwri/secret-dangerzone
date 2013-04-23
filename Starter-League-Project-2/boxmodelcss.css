@@ -53,18 +53,8 @@ table {
 	width:960px;
 	margin:0 auto;
 }
-
-/*.content, aside {
-	height: 1000000px;
-}*/
-
-/*.content {
-	background:red;
-	float:left;
-	width:700px;
-}*/
-
-/*.aside {
+/*
+.aside {
 	background:green;
 	float:left;
 	width:260px;
@@ -84,7 +74,8 @@ table {
 }*/
 
 .section {
-	float:left;
+	display: inline;
+	vertical-align: top;
 }
 
 .col1 {
@@ -95,7 +86,6 @@ table {
   width: 260px;
   color: blue;
   float:right;
-  margin:auto;
 }
 
 .col3 {
@@ -107,6 +97,7 @@ table {
   color: blue;
   float:left;
 }
+
 
 /*
 .header {
@@ -163,6 +154,7 @@ h1 {
 img {
 	max-width: 100%;
 	max-height: 100%;
+	border:0px;
 }
 li {
 	display:inline;
@@ -181,7 +173,9 @@ ul a:hover {
 	font-size:80px;
 }
 
-
+/*.section1 {
+	float:left;
+}*/
 /*span {
   display: inline-block;
   vertical-align: middle;
