@@ -78,6 +78,9 @@ table {
 	vertical-align: top;
 }
 
+.leftalittle {
+
+}
 .col1 {
   background: #fff;
   border: 10px solid #ccc;
@@ -170,7 +173,7 @@ li a {
 
 ul a:hover {
 	text-decoration: underline;
-	font-size:80px;
+	font-size:20px;
 }
 
 /*.section1 {
