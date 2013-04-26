@@ -83,22 +83,24 @@ table {
 }
 .col1 {
   background: #fff;
-  border: 10px solid #ccc;
+  border: 5px solid #ccc;
   padding: 40px 0px;
-  height:700px;
+  height:690px;
   width: 260px;
   color: blue;
   float:right;
+  text-align: center;
 }
 
 .col3 {
   background: #fff;
-  border: 10px solid #ccc;
+  border: 5px solid #ccc;
   height: 300px;
   padding: 40px 0px;
   width: 600px;
   color: blue;
   float:left;
+  text-align: center;
 }
 
 
@@ -138,20 +140,49 @@ table {
 
 /*Custom Styles*/
 
-p {
-	color:purple;
-	text-align:center;
+@font-face {
+  font-family: 'Bryant Normal';
+  src: url('bryant-normal.eot');
+  src: url('bryant-normal.eot') format('embedded-opentype'),
+       url('bryant-normal.woff') format('woff'),
+       url('bryant-normal.ttf') format('truetype'),
+       url('bryant-normal.svg') format('svg');
 }
 body {
+    font-family: 'Bryant Normal', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	background: white;
 	color:black;
-	font-family:Helvetica, sans-serif;
 }
 
+p {
+	color:purple;
+	padding:10px 0;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.psans{
+	color: brown;
+	font-family: 'Bryant Normal', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+}
 h1 {
-	font-size:20px;
+	font-size:42px;
 	font-weight:bold;
 	text-align:center;
+	padding:10px;
+	font-family: 'Noto Serif', serif;
+}
+
+h2 {
+
+	font-size: 21px;
+	padding:5px;
+}
+
+.h2ser {
+	font-size: 21px;
+	padding:5px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 img {
@@ -165,6 +196,8 @@ li {
 }
 footer {
 	clear:both;
+	text-align: center;
+	padding:10px;
 }
 
 li a {
@@ -175,20 +208,4 @@ ul a:hover {
 	text-decoration: underline;
 	font-size:20px;
 }
-
-/*.section1 {
-	float:left;
-}*/
-/*span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;   
-  right:200px;   
-}*/
-
-/*ol {
-	background-color: red;
-	width: 20px
-}
-*/
 
