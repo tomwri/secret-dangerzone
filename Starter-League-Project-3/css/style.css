@@ -155,7 +155,7 @@ body {
 }
 
 p {
-	color:purple;
+	color:green;
 	padding:10px 0;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
@@ -177,12 +177,16 @@ h2 {
 
 	font-size: 21px;
 	padding:5px;
+	font-family: 'IM Fell Double Pica SC', serif;
 }
 
 .h2ser {
-	font-size: 21px;
+	font-size: 60px;
 	padding:5px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
+	color:red;
+	font-family: 'Metal Lord';
+	letter-spacing: 5px;
+	text-shadow: 3px 3px 0 rgb(0, 0 , 0);
 }
 
 img {
