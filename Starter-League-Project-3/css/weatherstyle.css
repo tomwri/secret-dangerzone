@@ -60,13 +60,6 @@ table {
 	width:260px;
 }*/
 
-.kev {
-	font-family: 'Metal Lord';
-	color: black;
-	font-size: 100px;
-	text-shadow: 5px 5px 0 rgb(255, 3 , 3);
-}
-
 .col1
 .col3
 .header {
@@ -194,7 +187,7 @@ h2 {
 	color:red;
 	font-family: 'Metal Lord';
 	letter-spacing: 5px;
-	text-shadow: 5px 5px 0 rgb(0, 0 , 0);
+	text-shadow: 3px 3px 0 rgb(0, 0 , 0);
 }
 
 .weather1big {
