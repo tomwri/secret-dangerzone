@@ -61,10 +61,13 @@ table {
 }*/
 
 .kev {
+	margin: 10px 0;
 	font-family: 'Metal Lord';
-	color: black;
-	font-size: 100px;
-	text-shadow: 5px 5px 0 rgb(255, 3 , 3);
+	color: Black;
+	font-size: 50px;
+	text-shadow: 2px 2px 0 orange,
+               4px 4px 0 yellow,
+               6px 6px 0 blue;
 }
 
 .col1
