@@ -1,0 +1,215 @@
+/*=Reset*/
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+      */
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed, 
+      figure, figcaption, footer, header, hgroup, 
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure, 
+      footer, header, hgroup, menu, nav, section {
+      display: block;
+      }
+      body {
+      line-height: 1;
+      }
+      ol, ul {
+      list-style: none;
+      }
+      blockquote, q {
+      quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+      content: '';
+      content: none;
+      }
+      table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      }
+      /*******************/
+      /* End of Reset*/
+      /*******************/
+/*=Clearfix*/
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    clear: both;
+  }
+  /*End Clearfix*/
+/*=Custom Styles*/
+  @font-face {
+    font-family: 'Bryant Normal';
+    src: url('bryant-normal.eot');
+    src: url('bryant-normal.eot') format('embedded-opentype'),
+         url('bryant-normal.woff') format('woff'),
+         url('bryant-normal.ttf') format('truetype'),
+         url('bryant-normal.svg') format('svg'); }
+  body {
+    background: white;
+    color:black;
+    font-family: 'Bryant Normal', 'Helvetica Neue', Arial, Helvetica, sans-serif;}
+ h1 {
+    color:purple;
+    font-size:42px;
+    font-weight:bold;
+    text-align:center;
+    padding:10px;
+    font-family: 'Noto Serif', serif;}
+ h2 {
+    /*color:purple;*/
+    font-size: 40px;
+    padding:5px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    }
+  .section {
+    display: inline;
+    vertical-align: top;
+    position: absolute;}
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border:0px; }
+  li {
+    display:inline;
+    padding:10px; }
+  li a {
+    text-decoration:none; 
+    }
+  a:hover {
+    text-decoration: underline;
+    color:green;
+   }
+  ul a:hover {
+      text-decoration: underline;
+      /*color:red;*/}
+ p {
+    color:green;
+    padding:10px 0;
+    line-height: 30px
+    font-family: Georgia, Times, 'Times New Roman', serif; 
+    }
+/*Columns*/
+  .column1,
+  .column2,
+  .column3,
+  .column4,
+  .column5,
+  .column6 {
+    color:black;
+    text-align:center;
+    position:relative;
+    width: 20%;
+    height:5%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid #ccc;}
+/*=Header*/
+  .header {
+    text-align: center;
+    font-size:12px;
+    background: white;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    padding: 12px 0;
+  }
+/*Image*/
+ .centerimg{
+    position: relative;
+    top: 50%;
+    left: 30%;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    width: 400px;
+  }
+/* Nav */
+/*=Footer*/
+  footer {
+    clear:both;
+    position:relative;
+    text-align: center;
+    padding:10px;
+  }
+/*=old css elements*/
+
+  /*.col1 {
+    background: #fff;
+    border: 5px solid #ccc;
+    padding: 40px 0px;
+    height:690px;
+    width: 260px;
+    color: blue;
+    float:right;
+    text-align: center;
+  }
+
+  .col3 {
+    background: #fff;
+    border: 5px solid #ccc;
+    height: 300px;
+    padding: 40px 0px;
+    width: 600px;
+    color: blue;
+    float:left;
+    text-align: center;
+  }*/
+
+  /*.leftcol {
+    text-align:center;
+    width: 290px;
+    height:900px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid #ccc;
+  }
+
+  .middlecol {
+    text-align:center;
+    width: 290px;
+    height: 900px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid #ccc;
+  }
+
+  .rightcol {
+    text-align:center;
+    width: 290px;
+    height: 900px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid #ccc;
+  }*/
