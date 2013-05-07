@@ -76,11 +76,12 @@
          url('bryant-normal.svg') format('svg'); }
   body {
     background: white;
+    width: 960px;
     color:black;
     font-family: 'Bryant Normal', 'Helvetica Neue', Arial, Helvetica, sans-serif;}
  h1 {
     color:purple;
-    font-size:42px;
+    font-size:24px;
     font-weight:bold;
     text-align:center;
     padding:10px;
@@ -95,8 +96,17 @@
     display: inline;
     vertical-align: top;
     position: absolute;}
+  .wrap {
+    width: 600px;
+    /*height: auto;*/
+  }
   .container {
-    max-width: 960px;
+    width: 300px;
+    padding: 10px 10px;
+    float:left;
+  }
+  .container2 {
+    width: 960px;
     margin: 0 auto;
     }
   img {
@@ -134,8 +144,14 @@
   .topbox,
   nav {
     background: #ff005a;
-    width: 12000px;
+    width: 960px;
     height: 20px;
+  }
+  ol {
+    width: 960px;
+  }
+  .wrap {
+  width: 960px
   }
 /*Columns*/
   .column1,
@@ -174,7 +190,6 @@
     margin-bottom: 0px;
     padding: 0px 0;
     width: 200px;
-    width:400px;
   }
 
   .headerbackground {
@@ -183,11 +198,12 @@
      background: linear-gradient(to right, #ff005a 10%, #61CDF5 60%, #80c8e5);
   }
   .smallunderline {
-    width:12000px;
+    width:960px;
     border-bottom: 2px solid black;
+    float:left;
   }
 /*Image*/
-/*
+  /*
   .pic {
     border: 10px solid #fff;  
     float: left;
@@ -210,23 +226,23 @@
       height: 400px;
       overflow: hidden;
       box-shadow: 5px;
-  }*/
-/*
-  .centerimg:hover {
-    width: 500px;
-    height: 500px;
-  }*/
+    }*/
+  /*
+    .centerimg:hover {
+      width: 500px;
+      height: 500px;
+    }*/
 /*Nav*/
-.nav {
-  font-size: 16px;
-  background: #61CDF5;
-}
+  .nav {
+    font-size: 16px;
+    background: #61CDF5;
+  }
 /*=Footer*/
   footer {
     clear:both;
-    position:relative;
     text-align: center;
     padding:10px;
+    font-size:12px;
+    margin: 0 auto;
   }
-
 /*Need Wrap for content */
