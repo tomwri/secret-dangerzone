@@ -49,12 +49,10 @@
       /*******************/
       /* End of Reset*/
       /*******************/
-
 /*Colors*/
       /* Old Magenta: #ff005a */
       /* New blue: #61CDF5 */
       /* Old blue: #80c8e5 */
-
 /*=Clearfix*/
   .group:before,
   .group:after {
@@ -110,10 +108,18 @@
     padding:10px; }
   li a {
     text-decoration:none; 
+    color:green;
     }
+  a,
+  a:hover {
+    font-family: 'IM Fell Double Pica SC', serif;
+  }
+  a {
+    text-decoration: none;
+    font-family: 'IM Fell Double Pica SC', serif;
+  }
   a:hover {
     text-decoration: underline;
-    color:green;
    }
 
   ul a:hover {
@@ -125,6 +131,12 @@
     line-height: 30px
     font-family: Georgia, Times, 'Times New Roman', serif; 
     }
+  .topbox,
+  nav {
+    background: #ff005a;
+    width: 12000px;
+    height: 20px;
+  }
 /*Columns*/
   .column1,
   .column2,
@@ -144,39 +156,36 @@
     background-color: #fff;
     background: linear-gradient(to bottom left, #ff005a 10%, #61CDF5 60%, #80c8e5); }
 
-.column1:hover,
-.column2:hover,
-.column3:hover,
-.column4:hover,
-.column5:hover,
-.column6:hover
-{
-    background: linear-gradient(to left, #ff005a 10%, #61CDF5 60%, #80c8e5);
-}
+  .column1:hover,
+  .column2:hover,
+  .column3:hover,
+  .column4:hover,
+  .column5:hover,
+  .column6:hover
+  {
+      background: linear-gradient(to left, #ff005a 10%, #61CDF5 60%, #80c8e5);
+  }
 /*=Header*/
   .header {
     text-align: center;
     font-size:12px;
     /*background: white;*/
-    border-bottom: 2px solid black;
-    margin-bottom: 30px;
-    padding: 12px 0;
+    /*border-bottom: 2px solid black;*/
+    margin-bottom: 0px;
+    padding: 0px 0;
+    width: 200px;
+    width:400px;
   }
 
-.headerbackground {
-   background: #6c9730;
-  background: url('linear-gradient-stops.png') 0 0 repeat-y;
-  background: linear-gradient(to right, #ff005a 10%, #61CDF5 60%, #80c8e5);
-}
-
-a:hover {
-  /*background: url("http://p.yusukekamiyamane.com/icons/search/fugue/icons/thumb-up.png") 20px 50% no-repeat, linear-gradient(#FFDA61, #BA951E);*/
-  color: yellow;
-  /*background-color: #fff;*/
-  /*background: linear-gradient(to left, #8dc63f, #d8ad45, #3b4b94);*/
-  font-family: 'IM Fell Double Pica SC', serif;
-}
-
+  .headerbackground {
+     background: #6c9730;
+     background: url('linear-gradient-stops.png') 0 0 repeat-y;
+     background: linear-gradient(to right, #ff005a 10%, #61CDF5 60%, #80c8e5);
+  }
+  .smallunderline {
+    width:12000px;
+    border-bottom: 2px solid black;
+  }
 /*Image*/
 /*
   .pic {
@@ -191,7 +200,7 @@ a:hover {
             box-shadow: 5px 5px 5px #111;  
   }*/
 
-   .centerimg{
+  /* .centerimg{
       position: relative;
       top: 50%;
       left: 30%;
@@ -201,14 +210,17 @@ a:hover {
       height: 400px;
       overflow: hidden;
       box-shadow: 5px;
-  }
-
+  }*/
+/*
   .centerimg:hover {
     width: 500px;
     height: 500px;
-  }
-
-/* Nav 
+  }*/
+/*Nav*/
+.nav {
+  font-size: 16px;
+  background: #61CDF5;
+}
 /*=Footer*/
   footer {
     clear:both;
@@ -216,56 +228,5 @@ a:hover {
     text-align: center;
     padding:10px;
   }
-/*=old css elements*/
 
-  /*.col1 {
-    background: #fff;
-    border: 5px solid #ccc;
-    padding: 40px 0px;
-    height:690px;
-    width: 260px;
-    color: blue;
-    float:right;
-    text-align: center;
-  }
-
-  .col3 {
-    background: #fff;
-    border: 5px solid #ccc;
-    height: 300px;
-    padding: 40px 0px;
-    width: 600px;
-    color: blue;
-    float:left;
-    text-align: center;
-  }*/
-
-  /*.leftcol {
-    text-align:center;
-    width: 290px;
-    height:900px;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    border: 5px solid #ccc;
-  }
-
-  .middlecol {
-    text-align:center;
-    width: 290px;
-    height: 900px;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    border: 5px solid #ccc;
-  }
-
-  .rightcol {
-    text-align:center;
-    width: 290px;
-    height: 900px;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    border: 5px solid #ccc;
-  }*/
+/*Need Wrap for content */
