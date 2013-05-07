@@ -232,6 +232,14 @@
       width: 500px;
       height: 500px;
     }*/
+/*Aside*/
+aside{
+  color:brown;
+  width:320px;
+  float:left;
+  margin: 0 auto;
+  text-align: center;
+}
 /*Nav*/
   .nav {
     font-size: 16px;
