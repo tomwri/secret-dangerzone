@@ -197,6 +197,9 @@
      background: url('linear-gradient-stops.png') 0 0 repeat-y;
      background: linear-gradient(to right, #ff005a 10%, #61CDF5 60%, #80c8e5);
   }
+  .headerbackground:hover  {
+      background: linear-gradient(to left, #ff005a 10%, #61CDF5 60%, #80c8e5);
+  }
   .smallunderline {
     width:960px;
     border-bottom: 2px solid black;
@@ -233,13 +236,13 @@
       height: 500px;
     }*/
 /*Aside*/
-aside{
-  color:brown;
-  width:320px;
-  float:left;
-  margin: 0 auto;
-  text-align: center;
-}
+  aside{
+    color:brown;
+    width:320px;
+    float:left;
+    margin: 0 auto;
+    text-align: center;
+  }
 /*Nav*/
   .nav {
     font-size: 16px;
